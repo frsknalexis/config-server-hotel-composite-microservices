@@ -1,4 +1,4 @@
-#APP CONFIGURATION RUNNING ON DOCKER CONTAINER
+#SPRING CONFIGURATION RUNNING ON DOCKER CONTAINER
 spring:
   application:
     name: microservices-hotel
@@ -7,11 +7,6 @@ spring:
   data:
     mongodb:
       uri: mongodb://192.168.99.100:37017/hotel_app
-
-  #CONFIG SERVER CONFIGURATION
-  cloud:
-    config:
-      uri: http://config-server:8888
 
 server:
   port: 9002
