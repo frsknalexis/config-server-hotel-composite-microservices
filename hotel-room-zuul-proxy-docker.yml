@@ -26,3 +26,11 @@ zuul:
     hotel-room-composite:
       serviceId: hotel-room-composite
       path: /api/hotel-room/v1/**
+
+#  ribbon:
+#    eager-load:
+#      enabled: true
+
+ribbon:
+  ConnectTimeout: 60000
+  ReadTimeout: 60000
